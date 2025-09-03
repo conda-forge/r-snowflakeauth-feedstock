@@ -1,4 +1,4 @@
-{% set version = '0.1.2' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/snowflakeauth_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/snowflakeauth/snowflakeauth_{{ version }}.tar.gz
-  sha256: c5daebf8a6256ef0b6e52f628cc476ef71bb2a926c9340d875adce59c8ae7696
+  sha256: 880d90a6dfc2638f3800a5316624b93748905002822cb45d8e45c290d4e06b08
 
 build:
   number: 0
@@ -49,9 +49,7 @@ test:
 about:
   home: https://posit-dev.github.io/snowflakeauth/, https://github.com/posit-dev/snowflakeauth
   license: MIT
-  summary: Authentication helpers for 'Snowflake'. It provides compatibility with authentication
-    approaches supported by the 'Snowflake Connector for Python' <https://pypi.org/project/snowflake-connector-python>
-    and the 'Snowflake CLI' <https://pypi.org/project/snowflake-cli>.
+  summary: Authentication helpers for 'Snowflake'. It provides compatibility with authentication approaches supported by the 'Snowflake Connector for Python' <https://pypi.org/project/snowflake-connector-python> and the 'Snowflake CLI' <https://pypi.org/project/snowflake-cli>.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
