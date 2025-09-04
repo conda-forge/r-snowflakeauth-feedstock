@@ -31,14 +31,18 @@ requirements:
     - r-rcpptoml
     - r-cli
     - r-curl
+    - r-jose
     - r-jsonlite
+    - r-openssl
     - r-rlang
   run:
     - r-base
     - r-rcpptoml
     - r-cli
     - r-curl
+    - r-jose
     - r-jsonlite
+    - r-openssl
     - r-rlang
 
 test:
