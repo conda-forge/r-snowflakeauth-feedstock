@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/snowflakeauth_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/snowflakeauth/snowflakeauth_{{ version }}.tar.gz
-  sha256: f34b7d44d9c2aeba2b37e17d9af28590e931684c6aba4d96ef01b14b77838bc1
+  sha256: 0dc6c541b2ac2477244a4a003373a6482a89736e34779d9af566ff5bdae040e2
 
 build:
   number: 0
