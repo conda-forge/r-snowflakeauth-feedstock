@@ -51,7 +51,8 @@ test:
     - "\"%R%\" -e \"library('snowflakeauth')\""  # [win]
 
 about:
-  home: https://posit-dev.github.io/snowflakeauth/, https://github.com/posit-dev/snowflakeauth
+  home: https://posit-dev.github.io/snowflakeauth/
+  dev_url: https://github.com/posit-dev/snowflakeauth
   license: MIT
   summary: Authentication helpers for 'Snowflake'. It provides compatibility with authentication approaches supported by the 'Snowflake Connector for Python' <https://pypi.org/project/snowflake-connector-python> and the 'Snowflake CLI' <https://pypi.org/project/snowflake-cli>.
   license_family: MIT
