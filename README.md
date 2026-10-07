@@ -3,11 +3,13 @@ About r-snowflakeauth-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-snowflakeauth-feedstock/blob/main/LICENSE.txt)
 
-Home: https://posit-dev.github.io/snowflakeauth/, https://github.com/posit-dev/snowflakeauth
+Home: https://posit-dev.github.io/snowflakeauth/
 
 Package license: MIT
 
 Summary: Authentication helpers for 'Snowflake'. It provides compatibility with authentication approaches supported by the 'Snowflake Connector for Python' <https://pypi.org/project/snowflake-connector-python> and the 'Snowflake CLI' <https://pypi.org/project/snowflake-cli>.
+
+Development: https://github.com/posit-dev/snowflakeauth
 
 Current build status
 ====================
